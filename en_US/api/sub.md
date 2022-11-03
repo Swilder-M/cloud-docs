@@ -20,7 +20,7 @@ GET /subscriptions
 
 ### Response Message
 
-| Name            | Type            | Description                                  |
+| 名称            | 类型             | 描述                                  |
 | --------------- | ---------------- | ------------------------------------- |
 | code            | Integer          | 0                                     |
 | data            | Array of Objects | All subscription information          |
@@ -80,7 +80,7 @@ GET /subscriptions/{clientid}
 
 ### Response Message
 
-| Name            | Type             | Description                         |
+| 名称            | 类型             | 描述                         |
 | --------------- | ---------------- | ---------------------------- |
 | code            | Integer          | 0                            |
 | data            | Array of Objects | All subscription information |
