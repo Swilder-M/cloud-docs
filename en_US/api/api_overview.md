@@ -3,15 +3,17 @@
 EMQX Cloud API follows the REST architecture, and you can access the functions of EMQX programmatically.
 
 ## API Overview
-| API         | Description                                     |
-| ----------- | ----------------------------------------------- |
-| [Authentication management](./auth.md)          | Manage the creation, deletion and update of authentication information                                         |
-| [ACL management](./acl.md)         | Manage the creation, deletion and update of ACL information                                      |
-| [Client management](./client.md)         | View the online client information and kick off the client                                 |
-| [Message Subscription](./sub.md)        | Check subscribed message                     |
-| [Topic Subscription](./topic.md)        | Subscribe, unsubscribe, batch subscribe, batch unsubscribe                      |
-| [Message Publish](./topic.md)        | Publish, batch publish                      |
-| [Metrics](./metrics.md)        | Check metrics                     |
+| API                                    | Description                                                            |
+|----------------------------------------|------------------------------------------------------------------------|
+| [Authentication management](./auth.md) | Manage the creation, deletion and update of authentication information |
+| [ACL management](./acl.md)             | Manage the creation, deletion and update of ACL information            |
+| [Blacklist management](./banned.md)    | Manage the creation, deletion and get of blacklist information         |
+| [Client management](./client.md)       | View the online client information and kick off the client             |
+| [Message Subscription](./sub.md)       | Check subscribed message                                               |
+| [Topic Subscription](./topic.md)       | Subscribe, unsubscribe, batch subscribe, batch unsubscribe             |
+| [Message Publish](./topic.md)          | Publish, batch publish                                                 |
+| [Metrics](./metrics.md)                | Check metrics                                                          |
+
 
 ## How to Use API
 ### Construct Request
